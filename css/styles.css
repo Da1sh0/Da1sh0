@@ -1,0 +1,48 @@
+
+:root {
+    --color1: #44749d;
+    --color2: #c6d4e1;
+    --color3: #ffffff;
+    --color4: #ebe7e0;
+    --letra: #bdb8ad;
+  }
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: var(--color2);
+    border-radius: 20px;
+    border: solid 2px black;
+}
+
+.logo {
+    padding-left: 10px;
+    padding: 5px;
+}
+.logo img{
+    animation: spin 2s /*infinite*/ alternate;
+    
+}
+@keyframes spin{
+    from{
+        transform: rotate(0)
+    }to{
+        transform: rotate(360deg)
+    }
+}
+.menu a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: var(--letra);
+    -webkit-text-stroke: 1px black;
+    font-size: xx-large;
+
+}
+
+.name {
+    color: var(--letra);
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
+
+}
