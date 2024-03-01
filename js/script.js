@@ -6,5 +6,5 @@ document.addEventListener('DOMContentLoaded', function () {
     // Oculta la pantalla de carga después de 5 segundos
     setTimeout(function () {
         loader.style.display = 'none';
-    }, 2000); // 5000 milisegundos = 5 segundos
+    }, 1000); // 5000 milisegundos = 5 segundos
 });
